@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Mohammed Sekkouh</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #eef1f5;
+    }
+
+    .container {
+      background: white;
+      max-width: 850px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    .photo {
+      float: right;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-left: 20px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      color: #007BFF;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+      .photo {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+
+      body {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="f7517d54-1c52-4e1d-960f-3fd4d2cf401a.jpg" alt="Photo de profil" class="photo" />
+    <h1>Mohammed Sekkouh</h1>
+    <p><strong>Email :</strong> <a href="mailto:mohamedsekouhe20@gmail.com">mohamedsekouhe20@gmail.com</a></p>
+    <p><strong>Téléphone :</strong> 07 03 62 74 42</p>
+    <p><strong>Adresse :</strong> SECTEUR C IMM ABC 5 APPT 9 El Bassatine, Meknès</p>
+
+    <h2>Expérience professionnelle</h2>
+    <ul>
+      <li><strong>Preneur de commandes</strong> – (2023 - 2024)</li>
+      <li><strong>Employé de McDonald's</strong> – (2025)</li>
+    </ul>
+
+    <h2>Formation académique</h2>
+    <ul>
+      <li>Baccalauréat en sciences humaines (2024)</li>
+      <li>Premier cycle de licence en droit privé (2024 - 2025)</li>
+    </ul>
+
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML / CSS</li>
+      <li>Python</li>
+    </ul>
+
+    <h2>Activités parascolaires</h2>
+    <ul>
+      <li>Implication dans les activités caritatives</li>
+    </ul>
+  </div>
+</body>
+</html>
